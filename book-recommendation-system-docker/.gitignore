@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.venv/
+
+# Environment variables
+.env
+
+# Node
+frontend/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+
+# Logs
+*.log
+
+# 
+books.pkl
+embeddings.npy
