@@ -1,6 +1,6 @@
 # Book Recommendation System
 
-An end-to-end **book recommendation system** built with **FastAPI, JWT authentication, MySQL, React, Docker, and AWS-ready deployment practices**.
+An end-to-end **book recommendation system** built with **Sentence-transformers, FastAPI, JWT authentication, MySQL, React, Docker, and AWS-ready deployment practices**.
 
 The system recommends books using **semantic embeddings**, supports **metadata-based filtering**, provides **user authentication**, stores **user search history**, and serves a simple frontend for interaction.
 
