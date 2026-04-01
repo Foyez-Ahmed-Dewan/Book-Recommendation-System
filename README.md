@@ -55,11 +55,10 @@ To avoid low-sample books dominating the rankings, the system uses an **IMDb-sty
 A book with **5.0 rating from 3 users** should not rank above a book with **4.6 rating from 50,000 users**.  
 Weighted score balances **average rating** and **number of ratings**, making trending results more reliable.
 
-### Equation
 
-\[
-WR = \left(\frac{v}{v+m}\right)R + \left(\frac{m}{v+m}\right)C
-\]
+### Weighted Rating Formula
+
+WR = (v / (v + m)) * R + (m / (v + m)) * C
 
 Where:
 
@@ -176,6 +175,7 @@ book-recommendation-system
 ├── requirements.txt
 ├── .env
 └── .venv
+```
 
 # How to Use the Project
 
