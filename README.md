@@ -11,22 +11,6 @@ The system recommends books using **semantic embeddings**, supports **metadata-b
 - **Dataset:** Goodreads 100K Books
 - **Source:** [Kaggle - goodreads-books-100k](https://www.kaggle.com/datasets/mdhamani/goodreads-books-100k)
 
-### Main columns used
-
-- `author`
-- `bookformat`
-- `desc`
-- `genre`
-- `img`
-- `isbn`
-- `isbn13`
-- `link`
-- `pages`
-- `rating`
-- `reviews`
-- `title`
-- `totalratings`
-
 ---
 
 ## Project Overview
